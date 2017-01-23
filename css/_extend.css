@@ -1,0 +1,30 @@
+.w25 {
+  width: 25%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.w34 {
+  width: 34%;
+}
+
+.serviceDiv {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  height: 450px;
+}
+
+.circleIcon {
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}

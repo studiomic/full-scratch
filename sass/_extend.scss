@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+//@extend .inline-block-SpaceClear;
+.inline-block-SpaceClear {
+	letter-spacing: -.40em;
+}
+//@extend .inline-block-SpaceNormal;
+.inline-block-SpaceNormal {
+	letter-spacing: normal;
+}
+
+.cl1 {
+	background: #f1f1f1;
+	cursor: pointer;
+}
+.cl2 {
+	background: #302e2f;
+	color: #FFF;
+	cursor: pointer;
+}
+.cl3 {
+	background: #709eab;
+	cursor: pointer;
+}
+.cl4 {
+	background: #ebb8d5;
+	cursor: pointer;
+}
+
+.cc1 {background: #5e689b;}
+.cc2 {background: #808a8c;}
+.cc3 {
+	background: #d7d2d8;
+	background: #607d8b;
+	background: #4c636e;
+
+}
+.cc4 {
+	background: #88babb;
+	background: #4f3243;
+	background: #d13b7b;
+	background: #808080;
+	background: #766;
+	background: #6e605d;
+}
+
+
+
+.w25 {width: 25%;}
+.w75 {width: 75%;}
+
+//@extend .w33;
+.w33 {width: 33%;}
+.w34 {width: 34%;}
+
+
+.serviceDiv {
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+	// display: block;
+	// background: #333;
+	//letter-spacing: normal;
+	vertical-align: top;
+	// height: 450px;
+	// min-height: 450px;
+	// min-height: 450px;
+}
+
+.circleIcon {
+	display: block;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}

@@ -1,0 +1,108 @@
+nav a {
+  text-decoration: none;
+  color: #333;
+  height: 40px;
+  display: block;
+}
+
+nav a:hover {
+  color: #333;
+  border-bottom: 6px solid #333;
+}
+
+#contact {
+  width: 980px;
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+#works figure {
+  width: 850px;
+  min-width: 850px;
+  text-align: left;
+}
+
+#workflow {
+  width: 960px;
+  min-width: 960px;
+}
+
+#workflow div:nth-of-type(odd) {
+  width: 80px;
+  margin-right: 20px;
+}
+
+#workflow div:nth-of-type(even) {
+  margin: 0;
+  width: 860px;
+}
+
+#about p {
+  width: 980px;
+}
+
+#about .about__left, #about .about__right {
+  width: 50%;
+  display: inline-block;
+}
+
+#about .about__right dl {
+  margin: 60px 0 0 100px;
+}
+
+#about .about__right dt {
+  width: 120px;
+  text-align: right;
+  vertical-align: top;
+  float: left;
+  clear: both;
+}
+
+#about .about__right dd {
+  margin: 0 0 24px 140px;
+}
+
+#about .about__right dd:nth-of-type(3) {
+  margin: 0 0 4px 140px;
+}
+
+#service {
+  min-width: 850px;
+}
+
+.service__main div {
+  min-width: 25%;
+  height: 450px;
+  min-height: 450px;
+}
+
+.service__main .service--1, .service__main .service--2, .service__main .service--3, .service__main .service--4,
+.service__main .service__one, .service__main .service__second, .service__main .service__third, .service__main .service__force {
+  min-width: 25%;
+  height: 450px;
+  min-height: 450px;
+}
+
+.service__main .service--1 ul, .service__main .service--2 ul, .service__main .service--3 ul, .service__main .service--4 ul,
+.service__main .service__one ul, .service__main .service__second ul, .service__main .service__third ul, .service__main .service__force ul {
+  height: 150px;
+  display: flex;
+}
+
+.service__main .service--1 ul li, .service__main .service--2 ul li, .service__main .service--3 ul li, .service__main .service--4 ul li,
+.service__main .service__one ul li, .service__main .service__second ul li, .service__main .service__third ul li, .service__main .service__force ul li {
+  width: 33%;
+}
+
+.service__main .spaceRight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+}
+
+.close {
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+}

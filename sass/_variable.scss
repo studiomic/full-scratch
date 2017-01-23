@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+// BODY VARIABLE ::background:color:font-family:font-size:line-height:
+$bgColor: #FFF;
+$color: #333;
+
+$font-family-base: 'Verdana', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$font-family-Orbitron: 'Orbitron', 'Verdana', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo', 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$fontFamily:"Hiragino Kaku Gothic Pro","HiraKakuPro-W6","HiraMaruPro-W4","Kozuka Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","Noto Sans Japanese","Noto Sans",sans-serif;
+$fontFamilyMin:Georgia, "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+$fontFamilyVer:Verdana, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo, 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$fontFamilyLogo:'Century Gothic',Futura,Verdana, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo, 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+
+
+
+$lineHeight: 1.8;
+$anchorColor: #5CC3F6;
+$hoverColor: #5CC3F6;
+$footerBgColor: #f6f6f6;
+$aboutMapBg: #545454;
+
+
+//Media　conditional branch
+$width-wide: 1140px; //USE:MIN
+$width-minpc: 980px; //USE:MAX
+$width-tablet: 768px; //USE:MAX
+$width-smartphone: 480px; //USE:MAX
+
+//$width-smartphone: 480px; //USE:MAX
+//$width-smartphone: 320px;
+//$width-scrollbar: 20px;
+
+
+
+
+
+
+
+//$aboutMapBg: #a2a2a2
+
+
+//font-family: Georgia, "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+// #999;#808080;909090
+// #989898;#8c8c8c;
+// #b4b4b4;909090;
+// #262831;ATOM
+// #31343f;ATOMon#607d8b  #689
+//slategray
+// Width545454;495054
+// $width-pc: 960px;6c6c6c;
+// $width-tablet: 768px;
+// $width-smartphone: 480px;
+// $width-scrollbar: 20px;
+
+
+// Font
+// $fontSize: 100;
+//
+
+
+// Background Color
+//
+
+// Color
+//
+// $color-inverse: #fff;
+// //$color-link: #f9ac2b;
+// $anchor-color: #5CC3F6;
+// $hover-color: #5b6992;
+
+
+// 標準font-family
+// $font-family:"Noto Sans","Kozuka Gothic Pro","小塚ゴシック Pro","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family:"Kozuka Gothic Pro","小塚ゴシック Pro","Noto Sans","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family:"SourceHanSans","Kozuka Gothic Pro","小塚ゴシック Pro","Noto Sans","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family:"Noto Sans","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family2:'Noto Sans', sans-serif;
+//$font-logo:"Myriad Pro",'Lato',"HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ",Meiryo,sans-serif;
+//$font-family3:"小塚ゴシック Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック",sans-serif;
+//$bg-color: #fff;
+//$text-color: #51514c;
+// 	background: #116094;
+// 	background: #dfe5e6;
+
+// $nav-bgcolor: #dfe5e6;
+// $subnav-bgcolor: #f2f5f5;
+// //$second-nav:#f2f5f5;
+// $footer-bgcolor: #b2c6d2;
+// $nav-anchor-color: #333;
+// $nav-hover-color: #fff;
+// $hover-color: #5b6992;
+// $top-gallery: #5b6992;
+// $header-heiht: 130px;
+// $site-width: 1000px;
+
+//$nav-hover-color: #7ab5cb;
+//$text-color: #f3f3f3;
+//$bg-color: #242424;

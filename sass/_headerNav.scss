@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+
+//* HEADER :: named in Project :TopGroup
+//----------------------------------------------------*/
+header {
+	margin: 0 auto;
+	text-align: center;
+	font-family: $font-family-Orbitron;
+
+	position: absolute;
+	top: 200px;
+	left: 0;
+	right: 0;
+
+//	display: block;
+// margin-top: 200px;
+//width: 100%;
+//height: 100%;
+
+
+	//border: 1px solid RED;
+	// bottom: 0;
+
+	// background-position: center center;
+
+	h1 {
+			margin: 0 0 60px 0;
+			text-transform: uppercase;
+			font-size: 286%;
+			// padding-top: 200px;
+	}
+	p {
+		margin: 0 0 40px 0;
+		text-transform: uppercase;
+		font-size: 286%;
+		font-weight: bold;
+		padding: 0.4em 0;
+	}
+	nav {
+		text-align: center;
+		// display: block;
+		// height: 45px;
+		// width: 100%;
+		height: 70px;
+		font-size: 86%;
+
+		// background: #FFF;
+		// filter:alpha(opacity=50);
+		background: rgba(255,255,255,0.7);
+		//-moz-opacity: 0.5;
+		//opacity: 0.5;
+
+		//background: #ccc;
+		li:first-child {
+			margin-top: -10px;
+			text-indent: -4000em;
+			a {
+				display: block;
+				width: 34px;
+				height: 34px;
+				//background: url(../img/logo-jn.png);
+				background: url(../img/nav-logo.gif);
+				background-size: cover;
+				//outline: none;
+			}
+			a:hover {
+				border: none;
+				// background: url(../img/logo-black.png);
+				background: url(../img/nav-ov-logo.gif);
+				background-size: cover;
+				//outline:none;
+			}
+		}
+		ul {
+			display: flex;
+			width: 680px;
+			//height: 70px;
+			// max-width: 980px;
+			// border: 1px solid;
+			justify-content: space-between;
+			margin: 0 auto;
+			padding: 2rem 0 0 0;
+			padding: 30px 0 0 0;
+			text-transform: uppercase;
+			line-height: 1.0;
+			//vertical-align: middle;
+		}
+		li {
+			list-style: none;
+			text-align: center;
+			text-wrap: none;
+		}
+	}
+}
+
+.fixednav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: #FFF;
+		filter:alpha(opacity=90);
+		-moz-opacity: 0.9;
+		opacity: 0.9;
+		z-index: 100;
+}

@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+//* FORM AREA
+//----------------------------------------------------*/
+#contact {
+	p {font-size: 115%;}
+	form {
+		font-size: 115%;
+		p {
+			text-align: center;
+			position: relative;
+			display: block;
+		}
+	}
+
+	dl {
+		margin: 40px 0;
+	}
+	// dd {
+	// 	border: 1px solid #333;
+	// }
+	dt {
+		padding-top: 10px;
+		vertical-align: top;
+		//border: 1px solid #333;
+
+		span {
+			font-size: 72%;
+			color: #f6f6f6;
+			background: #e14c68;
+			margin-left: 4px;
+			border: 2px solid #e14c68;
+			border-radius: 4px;
+			line-height: 0;
+		}
+	}
+}//endCONTACT
+
+.contactCK dd {
+	padding-top: 10px;
+}
+
+// @media (min-width: $width-wide) {
+// 	#contact {
+// 		dd {
+// 			margin: 0 0 40px 210px;
+// 		}
+// 	}
+// }
+
+@media screen and (min-width: $width-minpc){
+	#contact {
+		dd {
+			margin: 0 0 40px 210px;
+		}
+	}
+}
+
+
+// @media (min-width: $width-wide) {}
+
+// @media screen and (max-width: $width-tablet){}
+// @media screen and (min-width: $width-smartphone){
+// 	#contact {
+// 		dd {
+// 			margin: 0 0 40px 0px;
+// 			padding: 0;
+// 			background: #333;
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+
+//* DONE
+//--------------------------------------------*/
+button,input,optgroup,select,textarea {
+	color: inherit;
+	font: inherit;
+	line-height: 1em;
+}
+
+///* FIELD
+//--------------------------------------------*/
+input[type=button],
+input[type=submit] {
+	background: #262626;
+	text-align: center;
+	margin: 0 auto;
+	// background: $footer-bgcolor;
+	// font-size: 1em;
+	color: #fff;
+	width: 200px;
+	padding: 14px 0;
+	line-height: 1em;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+
+	&:hover{
+		background: #333;
+	}
+}
+
+input[type=tel],
+input[type=email],
+input[type=text],
+textarea {
+	width: 100%;
+	background: #f2f2f2;
+	padding: 4px;
+	border: 4px solid #f3f3f3;
+	border-radius: 4px;
+}
+textarea {
+	height: 180px;
+}

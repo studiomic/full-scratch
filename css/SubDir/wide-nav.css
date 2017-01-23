@@ -1,0 +1,188 @@
+#mobile-anime,
+#topfirstnav {
+  display: none;
+}
+
+header {
+  display: block;
+  text-align: left;
+  position: relative;
+  text-indent: -7000em;
+  padding-top: 12px;
+  padding-left: 22px;
+  height: 118px;
+  min-height: 118px;
+}
+header h1 {
+  background: url(../img/logo.png) no-repeat;
+}
+header h1 a {
+  display: block;
+  width: 374px;
+  height: 100px;
+}
+header p {
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 22px;
+  width: 240px;
+  height: 100px;
+  background: url(../img/logo-2nd.png) no-repeat;
+}
+
+#top-gallery,
+#draw-anime {
+  position: relative;
+  display: table;
+  text-align: center;
+}
+
+.draw-anime {
+  display: block;
+  width: 1000px;
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#intro {
+  display: table;
+  text-align: center;
+  width: 1000px;
+  max-width: 1000px;
+  position: absolute;
+}
+
+.draw {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.top-gallery {
+  display: table-cell;
+  vertical-align: middle;
+}
+.top-gallery ul {
+  display: table;
+  table-layout: fixed;
+  width: 99%;
+  margin: 0 auto;
+  padding: 0;
+}
+.top-gallery li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%;
+  padding: 0px 0px;
+}
+.top-gallery li img {
+  width: 98%;
+}
+
+#top-globalnav,
+#globalnav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  width: 100%;
+  min-width: 1000px;
+  display: none;
+  z-index: 1000;
+}
+
+.under-firstnav, .firstnav, .globalnav {
+  padding-top: 10px;
+  height: 60px;
+  text-align: center;
+}
+.under-firstnav nav, .firstnav nav, .globalnav nav {
+  display: inline-block;
+  width: 720px;
+  height: 60px;
+  text-align: center;
+}
+.under-firstnav nav a, .firstnav nav a, .globalnav nav a {
+  color: #333;
+}
+.under-firstnav nav a:hover, .firstnav nav a:hover, .globalnav nav a:hover {
+  color: #fff;
+}
+.under-firstnav nav ul, .firstnav nav ul, .globalnav nav ul {
+  display: table;
+  width: 100%;
+  height: 40px;
+}
+.under-firstnav nav li, .firstnav nav li, .globalnav nav li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #fff;
+  padding: 0 10px;
+  text-wrap: none;
+}
+
+.under-firstnav,
+.firstnav {
+  background: #dfe5e6;
+}
+
+.globalnav {
+  background: #dfe5e6 url(../img/logo-2nd-navon.png) no-repeat;
+  background-position: center right;
+  position: relative;
+}
+.globalnav h1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: url(../img/logo-navon.png) no-repeat;
+  text-indent: -7000em;
+  width: 150px;
+  height: 40px;
+}
+.globalnav h1 a {
+  display: block;
+  width: 150px;
+  height: 40px;
+}
+
+nav li.last {
+  border: 0;
+}
+
+.second-nav {
+  background: #f2f5f5;
+  height: 45px;
+  text-align: center;
+}
+.second-nav nav {
+  display: inline-block;
+  width: 1000px;
+  height: 45px;
+}
+.second-nav nav a {
+  color: #333;
+}
+.second-nav nav a:hover {
+  color: #c0620f;
+}
+.second-nav nav ul {
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+}
+.second-nav nav li {
+  background: url(../img/listmark-sun.png) no-repeat;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
+  padding: 10px 20px 0 32px;
+  text-wrap: none;
+  line-height: 1em;
+  height: 45px;
+}

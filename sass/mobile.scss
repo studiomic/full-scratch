@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+#particles-js,
+#header {
+	height: 600px;
+}
+
+
+//* SECTIONS SERVICE
+//----------------------------------------------------*/
+.service__main {
+	div {
+		//min-width: 25%;
+		width: 100%;
+		min-width: 100%;
+		//min-height: 450px;
+		height: 330px;
+		min-height: 330px;
+	}
+	.spaceRight{
+		// position: absolute;
+		position: relative;
+		margin-bottom: 100px;
+		padding-bottom: 100px;
+	}
+	.spaceDesc{
+		display: block;
+		min-height: 900px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.service__one,
+	.service__second,
+	.service__third,
+	.service__force,
+	.service__1,
+	.service__2,
+	.service__3,
+	.service__4 {
+		// .fa
+		// 	{
+		// 	font-size: 4rem;
+		// 	color: #FFF;
+		// }
+		ul{
+			height: 64px;
+			display:flex;
+			li {
+				width: 33%;
+				// display: flex;
+				//border: 1px solid RED;
+				.fa {
+						padding-top: 10px;
+				}
+			}
+		}
+	}
+}
+
+
+//* SECTIONS WORKFLOW
+//----------------------------------------------------*/
+#works figure,
+#workflow {
+		width: 100%;
+		padding: 0 10px;
+		h2 {
+			text-align: center;
+			background: #f5f5f5;
+		}
+
+		div:nth-of-type(odd) {
+			text-align: center;
+			width: 100%;
+		}
+
+		div:nth-of-type(even){
+			width: 100%;
+		}
+}
+
+//* SECTIONS CONTACT
+//----------------------------------------------------*/
+#contact {
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+//* SECTIONS ABOUT
+//----------------------------------------------------*/
+#about {
+	p {
+		padding: 0 10px;
+	}
+	.about__left,.about__right {
+		width: 100%;
+		display: block;
+	}
+	.about__right {
+		padding-top: 40px;
+		dl {
+			margin: 0;
+			// border: 1px solid RED;
+			//font-family: $fontFamilyMin;
+		}
+		dt {
+			width: 90px;
+			text-align: right;
+			vertical-align: top;
+			float: left;
+			clear: both;
+			}
+		dd {
+			margin: 0 0 24px 110px;
+		}
+		dd:nth-of-type(3) {
+			margin: 0 0 4px 110px;
+		}
+	}
+}

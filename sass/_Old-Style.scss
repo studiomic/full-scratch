@@ -1,0 +1,103 @@
+@charset "utf-8";
+//@charset "UTF-8";
+
+//@import "compass";
+@import "config";
+
+//@import "compass/css3/";
+//Control+Shift+S
+
+// 標準font-family
+$font-family:"Hiragino Kaku Gothic Pro","HiraKakuPro-W6","HiraMaruPro-W4","Kozuka Gothic Pro","小塚ゴシック Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","Noto Sans Japanese","Noto Sans",sans-serif;
+
+
+
+// $font-family:"Noto Sans","Kozuka Gothic Pro","小塚ゴシック Pro","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family:"Kozuka Gothic Pro","小塚ゴシック Pro","Noto Sans","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family:"SourceHanSans","Kozuka Gothic Pro","小塚ゴシック Pro","Noto Sans","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family:"Noto Sans","HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ", Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+//$font-family2:'Noto Sans', sans-serif;
+//$font-logo:"Myriad Pro",'Lato',"HiraMaruPro-W4","Hiragino Kaku Gothic Pro","HiraKakuPro-W6","メイリオ",Meiryo,sans-serif;
+//$font-family3:"小塚ゴシック Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック",sans-serif;
+
+$bg-color: #fff;
+$text-color: #51514c;
+$nav-bgcolor: #dfe5e6;
+$subnav-bgcolor: #f2f5f5;
+//$second-nav:#f2f5f5;
+$footer-bgcolor: #b2c6d2;
+$nav-anchor-color: #333;
+$nav-hover-color: #fff;
+$anchor-color: #5CC3F6;
+$hover-color: #5b6992;
+$top-gallery: #5b6992;
+$header-heiht: 130px;
+$site-width: 1000px;
+
+//$nav-hover-color: #7ab5cb;
+//$text-color: #f3f3f3;
+//$bg-color: #242424;
+
+
+//* IMPORT MODULE FILES
+//----------------------------------------------------*/
+@import "reset";
+//@import "base";
+@import "base-tb";
+@import "top-gallery";
+//@import "header";
+//@import "header";
+//@import "nav";
+@import "common";
+@import "owl-carousel";
+@import "owl-style";
+@import "circle";
+@import "under-nav";
+@import "transform";
+@import "individual";
+@import "inquiry";
+@import "text-header";
+@import "gallery";
+
+//@import "component";
+
+
+#about {
+	letter-spacing: -.40em;
+	h1 {letter-spacing: normal;}
+	// div {
+	// 	width: 50%;
+	// 	display: inline-block;
+	// 	margin: 0;
+	// 	vertical-align: top;
+	// 	height: 500px;
+	// }
+	// div:nth-of-type(1) {
+		#about:first-child　{
+		letter-spacing: normal;
+		background: #3399cc;
+		color: #fff;
+		// text-align: center;
+	}
+	// div:nth-of-type(2) {
+	// 	background: #ff9900;
+	// }
+}
+
+background: #3399cc;
+width: 100%;
+
+
+
+#map {
+	// width: 100%;
+	// height: 500px;
+	// margin: 0;
+	width: 100%;
+	display: block;
+	// letter-spacing: normal;
+	// letter-spacing: -.40em;
+	// vertical-align: top;
+	height: 500px;
+	// background: #ff9900;
+}
