@@ -3,21 +3,42 @@
 // @import "config";
 // @import "compass";
 
+
+$font-family-base: 'Verdana', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$font-family-Orbitron: 'Orbitron', 'Verdana', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo', 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$fontFamily:"Hiragino Kaku Gothic Pro","HiraKakuPro-W6","HiraMaruPro-W4","Kozuka Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","Noto Sans Japanese","Noto Sans",sans-serif;
+$fontFamilyMin:Georgia, "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+$fontFamilyVer:Verdana, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo, 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$fontFamilyLogo:'Century Gothic',Futura,Verdana, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo, 'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+$font-family2:'Lato', sans-serif;
+$font-family3:'Noto Sans', sans-serif;
+
+$lineHeight: 1.8;
+$anchorColor: #5CC3F6;
+$hoverColor: #5CC3F6;
+
 //* IMPORT MODULE FILES
 //----------------------------------------------------*/
 @import "normalize";
+@import "box-sizing";
+
+@import "base";
 @import "wapper";
+@import "common";
+
+@import "service";
+@import "section";
+@import "inquiry";
+@import "nav";
+@import "footer";
 
 
 
 
 // @import "variable";
 // @import "extend";
-// @import "base";
 // @import "headerNav";
 // @import "layout";
-// @import "service";
-// @import "inquiry";
 
 
 
@@ -27,7 +48,6 @@
 // @import "top-gallery";
 //@import "header";
 //@import "nav";
-// @import "common";
 // @import "owl-carousel";
 // @import "owl-style";
 // @import "circle";

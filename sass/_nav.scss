@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+nav {
+	ul {
+		list-style-type: none;
+	}
+		li:before {
+			content: "●";
+			margin-right: 0.5em;
+			font-size: 0.8rem;
+			vertical-align: middle;
+		}
+}

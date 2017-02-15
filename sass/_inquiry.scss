@@ -3,9 +3,11 @@
 //* FORM AREA
 //----------------------------------------------------*/
 #contact {
-	p {font-size: 115%;}
+	// font-size: 115%;
+
+	// p {font-size: 115%;}
 	form {
-		font-size: 115%;
+		// font-size: 115%;
 		p {
 			text-align: center;
 			position: relative;
@@ -16,13 +18,17 @@
 	dl {
 		margin: 40px 0;
 	}
+	dt,dd {
+		margin: 0;
+		padding: 0;
+	}
 	// dd {
 	// 	border: 1px solid #333;
 	// }
 	dt {
 		padding-top: 10px;
 		vertical-align: top;
-		//border: 1px solid #333;
+//		border: 1px solid #333;
 
 		span {
 			font-size: 72%;
@@ -34,11 +40,11 @@
 			line-height: 0;
 		}
 	}
-}//endCONTACT
-
-.contactCK dd {
-	padding-top: 10px;
 }
+
+// .contactCK dd {
+// 	padding-top: 10px;
+// }
 
 // @media (min-width: $width-wide) {
 // 	#contact {
@@ -48,14 +54,14 @@
 // 	}
 // }
 
-@media screen and (min-width: $width-minpc){
-	#contact {
-		dd {
-			margin: 0 0 40px 210px;
-		}
-	}
-}
-
+// @media screen and (min-width: $width-minpc){
+// 	#contact {
+// 		dd {
+// 			margin: 0 0 40px 210px;
+// 		}
+// 	}
+// }
+//
 
 // @media (min-width: $width-wide) {}
 
@@ -110,7 +116,7 @@ input[type=tel],
 input[type=email],
 input[type=text],
 textarea {
-	width: 100%;
+	width: 96%;
 	background: #f2f2f2;
 	padding: 4px;
 	border: 4px solid #f3f3f3;

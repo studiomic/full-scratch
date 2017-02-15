@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+$Color1: #f5f5f5;
+$Color2: #333;
+
+footer {
+	background: #333;
+	background: #C72E53;
+	background: #313131;
+	background: #1b1b1b;
+	background: #000;
+	background: #242424;
+	text-align: center;
+	color: $Color1;
+	padding: 100px 0 20px;
+
+	a {
+		text-decoration: none;
+		color: #000;
+		&:hover, &:active, &:focus {
+			color: $Color1;
+		}
+	}
+	.fa {
+		font-size: 2em;
+		padding: 0 0.4em 100px;
+	}
+
+
+}
